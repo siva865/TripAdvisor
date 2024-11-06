@@ -5,8 +5,8 @@
 
 body {
     overflow-y: scroll;
-    height: 900px;
-    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-family: "Roboto", serif;
 }
 
 img {
@@ -29,22 +29,29 @@ img {
     top: 10%;
 }
 
-.menu a {
+.menu {
+    gap: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
 
-    margin:  15px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    margin-right: 15px;
-    transition: none;
+
 
 }
+
+.menu a {
+
+
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10%;
+}
 .menu a:hover{
-  background-color: #ccc;
-  border-radius: 30px;
-  border: 4px;
-  padding: 5px;
-  
+    background-color: #ccc;
+    padding: 3px;
+    border-radius: 40px;
+    margin-top: 3px;
 }
 
 .auth {
@@ -71,8 +78,8 @@ button {
 
 button:hover {
     background-color: #ccc;
-  
-    
+
+
 }
 
 .auth .login-btn {
@@ -148,8 +155,9 @@ button:hover {
 .options a {
     margin: 0px 10px;
     text-decoration: none;
-    color: #000;
+    color: #383838;
     font-size: large;
+    font-weight: bold;
 
 }
 
@@ -161,13 +169,15 @@ button:hover {
 
     width: 500px;
     padding: 100px;
-   
 
-   
-    
 }
+
 .reccomended img {
-    margin:0 auto;
-    width: 80%;
-   
+    margin: 0 auto;
+    width: 220%;
+    position: relative;
 }
+.catogries p{
+font-weight: lighter; 
+
+} 
